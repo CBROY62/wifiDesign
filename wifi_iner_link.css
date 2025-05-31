@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(244, 235, 235) ;
+}
+
+.second_contener{
+    height: 115vh;
+    width: 80vh;
+    background-color: rgb(65, 65, 161);
+}
+
+.third_contener{
+    height: 115vh;
+    width: 90vh;
+    text-align: center;
+    background-color:white;
+   
+    
+}
+
+.main_contener{
+    display: flex;
+    border: 2px solid rgb(251, 251, 251);
+    width: 80%;
+    margin-left: 150px;
+    
+   
+}
+.img_box{
+    margin-top: 200px;
+    margin-left: 30px;
+    mix-blend-mode: darken;
+   
+}
+
+.logo{
+    margin-top: 40px;
+    mix-blend-mode: darken;
+    margin-left: 30px;
+    cursor: pointer;
+  
+}
+
+h1{
+    font-size: 40px;
+    color:white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+input{
+    height: 50px;
+    width: 400px;
+    margin-left: 40px;
+    margin-top: 10px;
+    background-color: rgb(44, 44, 111);
+    border: none;
+    cursor: pointer;
+
+}
+p{
+     color: white;
+      font-size: 16px;
+     margin-left: 40px;
+}
+
+h5{
+    margin-left: 40px;
+    color:red;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn{
+    height: 45px;
+    width: 120px;
+    background-color: rgb(255, 0, 0);
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+   
+    
+}
+
+.btn:hover{
+    background-color: rgb(255, 5, 5);
+
+}
+
+
+.click a{
+    color: white;
+    margin-left: 40px;
+    text-decoration: none;
+    transform: translateY(-50px);
+    cursor: pointer;
+}
+
+.click a:hover{
+    text-decoration: underline;
+    color: #c7c9da;
+
+}
+
+.chechboxs input{
+    height: 20px;
+    width: 20px;
+    margin-right: 150px;
+    background-color: #121ec5;
+    cursor: pointer;
+}
+
+.click{
+    transform: translateX(60px);
+}
+
+input[type="checkbox"]:checked{
+    background-color: #1096ee;
+    cursor: pointer;
+}
+
+
+.number input{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 2px solid black;
+   
+}
+
+
+.get_otp{
+    display: flex;
+   margin-left: 175px;
+   margin-top: 20px;
+  padding: 10px;
+   text-align: center;
+   cursor: pointer;
+}
+
+.OTP input{
+    height: 30px;
+    width: 200px;
+    background-color: white;
+    border-radius: 3px;
+    display:flex;
+    margin-left: 125px;
+    cursor: pointer;
+
+}
+
+.phone_nos{
+    transform: translateY(30px);
+
+}
+
+.forget a{
+    text-decoration: none;
+    color: white;
+    margin-left: 155px;
+    
+}
+
+.forget a:hover{
+    text-decoration: underline;
+}
